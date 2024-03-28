@@ -1,5 +1,15 @@
 import { Model, Types } from 'mongoose';
 
+
+// ValidationError: profileImg: Cast to string failed for value \"{}\" (type Object) at path \"profileImg\""
+// stack
+// : 
+// "Error: ValidationError: profileImg: Cast to string failed for value \"{}\" (type Object) at path \"profileImg\"\n    at C:\\typescript-technocrat\\PH-university\\L2B2-PH-university-server\\src\\app\\modules\\User\\user.service.ts:100:11\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\typescript-technocrat\\PH-university\\L2B2-PH-university-server\\src\\app\\modules\\User\\user.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+
+
 export type TUserName = {
   firstName: string;
   middleName: string;
